@@ -1,0 +1,25 @@
+#anasutun {
+    flex-direction: column;
+    padding-top: auto;
+    padding-bottom: 0.75rem;
+    overflow: hidden;
+    height: 90px;
+}
+#courses .items {
+    flex-direction: column;   
+}
+#courses .item {
+    width: 100%;
+}
+.englishes .english1 {
+    flex-direction: column;
+    text-align:justify;
+}
+.spanishes .spanish1 {
+    flex-direction: column;
+    text-align:justify;
+}
+.dutches .dutch1 {
+    flex-direction: column;
+    text-align:justify;
+}

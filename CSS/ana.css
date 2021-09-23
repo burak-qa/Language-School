@@ -1,0 +1,22 @@
+/* text */
+.teks-merkez {
+    text-align: center;
+}
+.baslik-kucuk {
+    font-size: 1rem;
+}
+.baslik-orta {
+    font-size: 1.25rem;
+}
+.baslik-buyuk {
+    font-size: 1.50rem;
+}
+
+/* color */
+.bg-color {
+    background: #8B0000;
+}
+.bg-light-color {
+    background: #DC143C;
+}
+
