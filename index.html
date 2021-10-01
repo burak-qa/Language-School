@@ -48,11 +48,6 @@
             <map name="homemap">
                 <area shape="rect" coords="150,230,350,730" alt="Cambridge Language School" href="#courses" target="_blank" title="Courses" onclick="myFunction()">
             </map>
-            <script>
-                function myFunction() {
-                alert("You clicked the door to the world!");
-                }
-            </script>
         </div>
         <div class="name">
             <h2>Cambridge Language School</h2>
@@ -280,7 +275,7 @@
     </section>
     <footer id="contact" >
         <div class="contact-form">
-            <form > 
+            <form id="my-Form"> 
                 <h4 class="teks-merkez baslik-orta">Contact Us</h4>
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -309,7 +304,7 @@
                     <textarea name="message" id="message" class="form-control" rows="4" placeholder="Your message"></textarea>
 
                 </div>
-                <button type="submit" class="but but-ozel but-ozel1">Send</button>
+                <button class="but but-ozel but-ozel1" type="submit" value="Submit" >Send</button>
 
             </form>
             <ul >
@@ -321,5 +316,6 @@
         </div>
 
     </footer>
+    <script src="./javascript/js.js"></script>
 </body>
 </html>
