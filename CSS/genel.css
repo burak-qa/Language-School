@@ -289,6 +289,7 @@ tr:hover {
 }
 .but-ozel {
     background:#8B0000 ;
+    color:white;
 }
 .but-ozel:hover {
     color: #8B0000;
@@ -302,13 +303,30 @@ tr:hover {
 
 .form-group {
     padding: 0.25rem 0;
+    margin-top: 20px;
+    
 }
 .form-group label {
-    display: block;
+    
 }
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
 #contact {
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+
 }
+
 #contact .contact-form {
     max-width: auto;
     margin-left: auto;
@@ -334,5 +352,41 @@ font-size: 1.5rem;
 }
 #contact a:hover {
     opacity: 0.5;
+}
+
+textarea{
+    resize: vertical;
+}
+#status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+#status.success {
+    color:black;
+    font-weight: bolder;
+    animation: status 4s ease forwards;
+}
+#status.error {
+    color:red;
+    font-weight: bolder;
+    animation: status 4s ease forwards;
+}
+@keyframes status {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity:1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 
