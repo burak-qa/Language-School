@@ -1,2 +1,2 @@
 # Language-School
-https://burak2202.github.io/Language-School/
+https://burak-qa.github.io/Language-School/
